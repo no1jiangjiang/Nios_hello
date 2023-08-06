@@ -1,0 +1,57 @@
+11:32:53 **** Incremental Build of configuration Nios II for project hello_world ****
+make all 
+Info: Building ../hello_world_bsp/
+D:/FPGA18/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../hello_world_bsp/
+[BSP build complete]
+[hello_world build complete]
+11:32:59 **** Incremental Build of configuration Nios II for project hello_world ****
+make all 
+Info: Building ../hello_world_bsp/
+D:/FPGA18/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../hello_world_bsp/
+[BSP build complete]
+[hello_world build complete]
+11:33:01 **** Incremental Build of configuration Nios II for project hello_world_bsp ****
+make all 
+[BSP build complete]
+11:33:07 **** Build of configuration Nios II for project hello_world ****
+make all 
+Info: Building ../hello_world_bsp/
+D:/FPGA18/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../hello_world_bsp/
+[BSP build complete]
+[hello_world build complete]
+11:33:13 **** Incremental Build of configuration Nios II for project hello_world ****
+make all 
+Info: Building ../hello_world_bsp/
+D:/FPGA18/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../hello_world_bsp/
+[BSP build complete]
+Info: Compiling hello_world.c to obj/default/hello_world.o
+nios2-elf-gcc -xc -MP -MMD -c -I../hello_world_bsp//HAL/inc -I../hello_world_bsp/ -I../hello_world_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -O0 -g -Wall   -mhw-div -mhw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/hello_world.o hello_world.c
+Info: Linking hello_world.elf
+nios2-elf-g++  -T'../hello_world_bsp//linker.x' -msys-crt0='../hello_world_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../hello_world_bsp/  -msmallc  -Wl,-Map=hello_world.map   -O0 -g -Wall   -mhw-div -mhw-mul -mno-hw-mulx -mgpopt=global  -o hello_world.elf obj/default/hello_world.o -lm -msys-lib=m
+nios2-elf-insert hello_world.elf --thread_model hal --cpu_name nios2_qsys --qsys true --simulation_enabled false --id 0 --sidp 0x19000 --timestamp 1691052364 --stderr_dev jtag_uart --stdin_dev jtag_uart --stdout_dev jtag_uart --sopc_system_name hello --quartus_project_dir "D:/aa_Yzg/Helloworld/Qsys" --sopcinfo D:/aa_Yzg/Helloworld/Qsys/software3/hello_world_bsp/../../hello.sopcinfo
+Info: (hello_world.elf) 5336 Bytes program size (code + initialized data).
+Info:                   14 KBytes free for stack + heap.
+Info: Creating hello_world.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source hello_world.elf >hello_world.objdump
+[hello_world build complete]
+11:37:37 **** Incremental Build of configuration Nios II for project hello_world ****
+make all 
+Info: Building ../hello_world_bsp/
+D:/FPGA18/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../hello_world_bsp/
+[BSP build complete]
+[hello_world build complete]
+11:37:39 **** Incremental Build of configuration Nios II for project hello_world_bsp ****
+make all 
+[BSP build complete]
+11:39:00 **** Build of configuration Nios II for project hello_world ****
+make all 
+Info: Building ../hello_world_bsp/
+D:/FPGA18/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../hello_world_bsp/
+[BSP build complete]
+[hello_world build complete]
+11:39:21 **** Incremental Build of configuration Nios II for project hello_world ****
+make all 
+Info: Building ../hello_world_bsp/
+D:/FPGA18/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../hello_world_bsp/
+[BSP build complete]
+[hello_world build complete]

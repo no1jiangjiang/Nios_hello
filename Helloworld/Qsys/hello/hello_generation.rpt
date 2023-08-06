@@ -1,0 +1,27 @@
+Info: Starting: Create block symbol file (.bsf)
+Info: qsys-generate D:\aa_Yzg\Helloworld\Qsys\hello.qsys --block-symbol-file --output-directory=D:\aa_Yzg\Helloworld\Qsys\hello --family="Cyclone IV E" --part=EP4CE10F17C8
+Progress: Loading Qsys/hello.qsys
+Progress: Reading input file
+Progress: Adding clk_0 [clock_source 18.0]
+Progress: Parameterizing module clk_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: qsys-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: qsys-generate D:\aa_Yzg\Helloworld\Qsys\hello.qsys --synthesis=VERILOG --output-directory=D:\aa_Yzg\Helloworld\Qsys\hello\synthesis --family="Cyclone IV E" --part=EP4CE10F17C8
+Progress: Loading Qsys/hello.qsys
+Progress: Reading input file
+Progress: Adding clk_0 [clock_source 18.0]
+Progress: Parameterizing module clk_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: hello: Generating hello "hello" for QUARTUS_SYNTH
+Info: hello: Done "hello" with 1 modules, 1 files
+Info: qsys-generate succeeded.
+Info: Finished: Create HDL design files for synthesis
